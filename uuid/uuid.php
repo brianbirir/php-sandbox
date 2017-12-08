@@ -2,7 +2,7 @@
 
 function generate_uuid() {
 
-	$string_format = '%05x%04x-%04x-%04x-%04x-%04x%04x%04x';
+	$string_format = '%04x%04x-%04x-%04x-%04x-%04x%04x%04x';
 
     return sprintf( $string_format,
      	mt_rand( 0, 0xffff ), 
